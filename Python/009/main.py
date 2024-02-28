@@ -177,7 +177,7 @@ def draw(main: Tk, render_canvas: Canvas, render_heart: Heart, render_frame=0):
     main.after(1, draw, main, render_canvas, render_heart, render_frame + 1)
 
 
-if __name__ == '__main__':
+if __ilovejiaxin__ == '__main__':
     root = Tk()
     root.title("晚上星月争辉，美梦陪你入睡")
     canvas = Canvas(root, bg='black', height=CANVAS_HEIGHT, width=CANVAS_WIDTH)
